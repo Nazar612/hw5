@@ -54,3 +54,7 @@ span {color: black;}
 .aMain2 {color:cyan;}
 .Tel2 {color: dimgray;}
 th {font-family: Arial, Helvetica, sans-serif;}
+td > p {font-family: Arial, Helvetica, sans-serif}
+.sectionMain2 {font-family: Arial, Helvetica, sans-serif;}
+
+/* ПОРТФОЛІО */
