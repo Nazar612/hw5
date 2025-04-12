@@ -1,6 +1,48 @@
 
 /* ПЕРША ЧАСТИНА ДОМАШНЬОГО */
 
+@font-face {
+    font-family: Roboto-Regular ;
+    src: url(./assets/fonts/Roboto-Regular.ttf)
+    format(TrueType);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:Raleway-Bold;
+    src: url(assets/fonts/Raleway-Bold.ttf)
+    format(TrueType);
+     font-weight: 400;
+    font-style: normal;
+}
+
+.aMain1 {color: #2196F3;
+     font-family:Raleway-Bold;
+    }
+
+    .Studio {
+         font-family:Raleway-Bold;
+    }
+
+.ULmain1{
+    font-family: Roboto-Regular ;
+}
+
+.gmail {
+   font-family: Roboto-Regular;
+}
+
+.Tel1 {
+    font-family: Roboto-Regular;
+    color: #757575;
+}
+
+table {
+    font-family:Roboto-Regular ;
+    font-size:14px;
+}
+
 ul {
     list-style: none;
 }
@@ -11,12 +53,8 @@ ul {
 
 span {
     color: #000000;
-     font-family: Arial, Helvetica, sans-serif;
     }
 
-.aMain1 {color: #2196F3;
-     font-family: Arial, Helvetica, sans-serif;
-    }
 
 .sectionMain1 {
     background-color:#2F303A;
@@ -25,19 +63,33 @@ span {
        margin: 0 auto;
     }
 
-.Tel1 {
-    color: #757575;
-}
 
 .h1 {
     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family:Roboto-Regular;
+     height:60px ;
     }
 
 #button1 
-{background-color: darkblue;
+{background-color: #2196F3;
      color: white;
       width: 150px; height: 40px;
+      font-family:Roboto-Regular;
+      border-radius:4px;
+    }
+
+    .h2 {
+        font-family: Roboto-Regular ;
+        font-size: 42px;
+    }
+
+    .H2 {
+        font-family: Roboto-Regular;
+        font-size: 42px; 
+    }
+
+    .sectionMain2 {
+        font-family:Roboto-Regular ;
     }
 
 .ULmain3 img {
@@ -47,46 +99,75 @@ span {
 .footerMain {
     background-color:#2F303A;
      color: white;
-      height: 300px; width: 1600px
+      height: 300px; width: 1600px;
     }
+
+
 .aMain2 
 {
     color:#2196F3;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Raleway-Bold;
 }
+
 
 .Tel2 {
     color:#757575;
+    font-family:Roboto-Regular ;
 }
 
-th {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 td > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Roboto-Regular;
 }
 
-.sectionMain2 {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .mailto {
     color: #757575;
+    font-family: Roboto-Regular;
 }
 
-nav {
-    font-family: Arial, Helvetica, sans-serif;
+#p {
+    font-family: Roboto-Regular;
 }
+
 
 
 /* ПОРТФОЛІО */
 
 .a1 {
    color: #2196F3;
+   font-family: Raleway-Bold;
 }
 
-.body2 * {font-family: Arial, Helvetica, sans-serif;}
+span {
+    font-family: Raleway-Bold;
+}
+
+.Uli2 {
+    font-family:Roboto-Regular;
+}
+
+.a3 {
+    color:#2196F3 ;
+    font-family:Roboto-Regular
+}
+
+.TelM {
+    color:#757575 ;
+    font-family:Roboto-Regular
+}
+
+.Uli3 {
+    font-family:Roboto-Regular
+}
+
+.style p{
+    color: #757575;
+}
+
+.style {
+    font-family:Roboto-Regular ;
+}
 
 .footer2 {
     background-color:#2F303A
@@ -96,14 +177,16 @@ nav {
 
 .telF3 {
     color: #757575;
+    font-family: Roboto-Regular;
 }
 
 .a2 {
    color: #2196F3;
+   font-family: Raleway-Bold;
 }
 
-.span3 {
-    color: #000000;
+#p {
+    font-family:Roboto-Regular ;
 }
 
 .a3 {
@@ -112,6 +195,12 @@ nav {
 
 .a4 {
     color: #757575;
+    font-family: Roboto-Regular;
+}
+
+.telF3 {
+    color: #757575;
+    font-family: Roboto-Regular;
 }
 
 .Uli2 a {
