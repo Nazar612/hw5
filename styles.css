@@ -17,6 +17,10 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 .aMain1 {color: #2196F3;
      font-family:Raleway-Bold;
     }
