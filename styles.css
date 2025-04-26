@@ -283,6 +283,8 @@ span {
     font-weight: bold;
     font-size: 26px;
     margin-left: 215px;
+    display: block;
+    padding-top: 60px;
 }
 
 #spanf {
