@@ -244,6 +244,23 @@ span {
 
     .list-li {
         margin-right:30px;
+        position: relative;
+    }
+
+    .div-position {
+        background-color: rgba(47, 48, 58, 0.8);
+        width: 370px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .list-li-p {
+        padding-top:27px;
+        padding-bottom: 27px;
+        color: white;
+        position: relative;
+
     }
 
     .H2 {
