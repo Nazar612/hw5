@@ -37,6 +37,9 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
 
 .ULmain1 {
     display: flex;
@@ -249,7 +252,7 @@ span {
 
     .div-position {
         background-color: rgba(47, 48, 58, 0.8);
-        width: 370px;
+        width: 100%;
         text-align: center;
         position: absolute;
         bottom: 0;
