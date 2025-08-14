@@ -31,7 +31,8 @@
         <svg class="svg-header"><use href="./assets/svg/symbol-defs1.svg#icon-envelope-1"></use></svg>
    
         
-        <a href="mailto:info@devstudio.com" class="gmail inf ">info@devstudio.com</a> </li>
+        <a data-modal-open
+         class="gmail inf open ">info@devstudio.com</a> </li>
 
   
                 <li class="holder-of-something2">
@@ -40,6 +41,12 @@
                     <a href="tel:+380961111111" class="Tel1 inf">+38 096 111 11 11</a></li>            
             
             </ul>
+
+            <div class="background is-hidden" data-modal>
+                <div class="modal">
+                    <button class="close" data-modal-close>x</button>
+                </div>
+            </div>
 
 </div>
    </header>
@@ -239,5 +246,7 @@
                 </div>
                 </div>
    </footer>
+
+   <script src="script.js"></script>
 </body>
 </html>
