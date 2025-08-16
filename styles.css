@@ -966,7 +966,9 @@ width: 448px;
 width: 448px; box-sizing: border-box;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-height: 120px;
+padding-top: 12px;
+padding-left: 16px;
+padding-bottom:68px ;
 }
 
 
@@ -1028,6 +1030,49 @@ text-align: left;
     text-align: center;
 }
 
+.divv1 {
+    position: relative;
+}
+
+.name-svg {
+    position: absolute;
+    left: 12px;
+    top: 11px;
+}
+
+.model-input {
+    padding-left:40px;
+}
+
+
+.divv2 {
+    position: relative;
+}
+
+.number-svg {
+    position:absolute;
+    left: 12px;
+    top: 11px;
+}
+
+.divv3{
+    position: relative;
+}
+
+.mail-svg {
+    position:absolute;
+    left: 12px;
+    top: 11px;
+}
+
+.model-p {
+    margin-top: 10px;
+}
+
+.modal-close-svg {
+    height: 11px;
+    width: 11px;
+}
 
 
 
