@@ -902,7 +902,7 @@ footer {
  }
 
 .modal {
-    height:611px ;
+    height:581px ;
     width: 528px;
     background-color: white;
     border-radius: 4px;
@@ -960,15 +960,26 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 height: 40px;
 width: 448px;
+
 }
 
-.nd2-input{
-width: 448px; box-sizing: border-box;
-border: 1px solid rgba(33, 33, 33, 0.2);
+.textarea {
+    padding-top: 12px;
+    padding-left: 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-padding-top: 12px;
-padding-left: 16px;
-padding-bottom:68px ;
+width: 448px;
+height: 108px;
+resize: none;
+}
+
+.textarea:focus {
+    border-color: #2196F3 ;
+    outline: none;
+}
+
+.textarea :focus {
+    color: #2196F3;
 }
 
 
@@ -1072,8 +1083,22 @@ text-align: left;
 .modal-close-svg {
     height: 11px;
     width: 11px;
+    margin-top: 5px;
 }
 
+.close:hover .modal-close-svg {
+    fill: #2196F3;
+}
+
+.divv-2:focus .model-svg {
+    fill: #2196F3;
+}
+
+.model-input:focus {
+    border: solid 1px #2196F3;
+border-radius: 4px;
+outline: none;
+}
 
 
 
