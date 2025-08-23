@@ -45,12 +45,62 @@ img {
 .ULmain1 {
     display: flex;
         margin-top:32px;
-    margin-bottom: 32px;
 }
 
 .list-a {
     font-size:14px;
-    margin-right:50px;
+    margin-right: 50px;
+    
+    
+}
+
+.first-li1::after {
+    
+    content: "";
+    display: block;
+
+    border-bottom: 4px solid #2196F3;
+    width: 45px;
+    margin-top: 32px;
+    border-radius: 3px;
+    visibility: hidden ;
+}
+
+.first-li2::after {
+    
+    content: "";
+    display: block;
+
+    border-bottom: 4px solid #2196F3;
+    width: 72px;
+    margin-top: 32px;
+    border-radius: 3px;
+    visibility: hidden ;
+}
+
+.first-li3::after {
+    
+    content: "";
+    display: block;
+
+    border-bottom: 4px solid #2196F3;
+    width: 64px;
+    margin-top: 32px;
+    border-radius: 3px;
+    visibility: hidden ;
+    
+}
+
+.first-li3:hover::after {
+    visibility: visible;
+}
+
+.first-li2:hover::after {
+    visibility: visible;
+}
+
+.first-li1:hover::after {
+    visibility: visible;
 }
 
 .contacts {
@@ -966,6 +1016,8 @@ width: 448px;
 .textarea {
     padding-top: 12px;
     padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 width: 448px;

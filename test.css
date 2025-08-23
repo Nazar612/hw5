@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    display: block;
+}
+
+
+.list {
+    display: flex   ;
+}
+
+.li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.li::after {
+    content: "";
+    display: block;
+width: 50px;
+visibility: hidden;
+    height: 3px;
+    border-bottom: 3px solid blue;
+}
+
+.li:hover {
+    color: blue;
+}
+
+.li:hover::after {
+    visibility: visible;
+}
