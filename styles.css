@@ -49,14 +49,16 @@ img {
 
 .list-a {
     font-size:14px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
 
 .header-li {
     margin-right: 50px;
 }
 
-.list-a:hover::after {
-       content: "";
+.list-a::after {
+      content: "";
     display: block;
 
     border-bottom: 4px solid #2196F3;
@@ -64,6 +66,16 @@ img {
     border-radius: 3px;
     position: absolute;
     top: 46px;
+    right: 40px;
+    visibility: hidden;
+    transition:right 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+}
+
+.list-a:hover::after {
+       visibility: visible;
+       right: 0;
 }
 
 .list-a{
@@ -98,6 +110,7 @@ position: relative;
     height: 10px;
     width: 16px;
     margin: auto 0;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -129,6 +142,7 @@ position: relative;
    color: #757575;
      margin-left: 2px;
       margin-right: 50px;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .holder-of-something:hover .svg-header {
@@ -145,6 +159,7 @@ position: relative;
     width: 10px;
     margin-right: 5px;
     text-align: center; 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .holder-of-something2:hover .svg-header2 {
@@ -164,6 +179,7 @@ position: relative;
 .Tel1 {
     font-family: Roboto-Regular;
     color: #757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 table {
@@ -413,7 +429,7 @@ text-transform: uppercase
     height: 44px;
     width: 44px;
     margin-right: 10px;
-    transition: 0.3s ease-out;
+    transition: background-color 250ms ease-out;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 background: rgba(255, 255, 255, 0.1);
     border-radius:50%;
@@ -600,7 +616,7 @@ margin-top: 14.5px !important ;
     height: 44px;
     width: 44px;
     margin-right: 10px;
-    transition: 0.3s ease-out;
+    transition: background-color, border-radius 250ms ease-in-out ;
 }
 
 .networks {
@@ -745,6 +761,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 .style-list-li {
     margin-right: 30px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -825,11 +842,15 @@ footer {
     border-radius: 4px;
     border-style: solid;
     border-width: 0.1px;
-    border-color: #ECECEC; }
+    border-color: #ECECEC;
+    transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 
     .svg {
         margin-top: 22px;
+         transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .svg1 {
         width: 41px;
