@@ -616,7 +616,7 @@ margin-top: 14.5px !important ;
     height: 44px;
     width: 44px;
     margin-right: 10px;
-    transition: background-color, border-radius 250ms ease-in-out ;
+    transition: background-color 250ms ease-in-out, border-radius 250ms ease-in-out ;
 }
 
 .networks {
@@ -1145,9 +1145,11 @@ outline: none;
     height: 294px;
     background: rgba(33, 150, 243, 0.9);
     position: absolute;
-    top: 269px;
+    top: 639px;
     color: white;
-    visibility: hidden;
+    opacity: 0;
+    transition: top 250ms ease-in-out,
+    opacity 250ms ease-in-out;
 }
 
 .style-list-li-img {
@@ -1173,7 +1175,8 @@ margin-left:24px;
 margin-top: 63px;}
 
 .style-list-li:hover .front {
-    visibility: visible;
+    opacity: 1;
+top: 269px;
 }
 
 
