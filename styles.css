@@ -1144,6 +1144,38 @@ outline: none;
     position: relative;
 }
 
+.style-list-li2 {
+    position: relative;
+}
+
+.style-list-li3 {
+    position: relative;
+}
+
+.style-list-li4 {
+    position: relative;
+}
+
+.style-list-li5 {
+    position: relative;
+}
+
+.style-list-li6 {
+    position: relative;
+}
+
+.style-list-li7 {
+    position: relative;
+}
+
+.style-list-li8 {
+    position: relative;
+}
+
+.style-list-li9 {
+    position: relative;
+}
+
 .front-holder {
     overflow: hidden;
     width: 370px;
@@ -1193,6 +1225,7 @@ margin-top: 63px;}
 .style-list-li:hover .front-holder {
     opacity: 1;
 }
+
 
 
 
