@@ -1,10 +1,4 @@
 
-/* ПЕРША ЧАСТИНА ДОМАШНЬОГО */
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
 @font-face {
     font-family: Roboto-Regular ;
@@ -22,21 +16,9 @@
     font-style: normal;
 }
 
-.container {
-    display: flex;
-    width: 1270px;
-    padding: 0 15px;
-    margin-left: 215px;
-}
-
 body {
     font-family:Roboto-Regular ;
 }
-
-a {
-    text-decoration: none;
-}
-
 
 img {
     display: block;
@@ -187,9 +169,6 @@ table {
     font-size:14px;
 }
 
-ul {
-    list-style: none;
-}
 
 span {
     color: #000000;
