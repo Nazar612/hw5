@@ -415,10 +415,72 @@ body {
   line-height: 30px;
   margin-bottom: 200px;
   margin-left: 477px;
-  -webkit-animation-name: ButtonPulsing;
-          animation-name: ButtonPulsing;
+  position: relative;
+  overflow: hidden;
+  -webkit-animation-name: ButtonColorChange;
+          animation-name: ButtonColorChange;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+#button1::after {
+  content: "";
+  display: block;
+  bottom: -10px;
+  left: -140px;
+  height: 70px;
+  width: 50%;
+  position: absolute;
+  opacity: 0.5;
+  -webkit-animation-name: ButtonGlare;
+          animation-name: ButtonGlare;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  z-index: 3;
+  background: #2196F3;
+  background: linear-gradient(312deg, #2196f3 0%, white 52%, #2196f3 100%);
+}
+
+@-webkit-keyframes ButtonColorChange {
+  from {
+    background-color: #2196F3;
+  }
+  to {
+    background-color: #469ee6;
+  }
+}
+
+@keyframes ButtonColorChange {
+  from {
+    background-color: #2196F3;
+  }
+  to {
+    background-color: #469ee6;
+  }
+}
+
+@-webkit-keyframes ButtonGlare {
+  from {
+    left: -140px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+@keyframes ButtonGlare {
+  from {
+    left: -140px;
+  }
+  to {
+    left: 300px;
+  }
 }
 
 @-webkit-keyframes ButtonPulsing {
