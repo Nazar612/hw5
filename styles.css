@@ -73,51 +73,17 @@
 
   
 
-    .img-box {
-        background-color: white;
-/* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+    
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+    
 
-    }
+    
 
-    .sectionMain2 {
-        font-family:RobotoRegular ;
-        background-color: #F5F4FA;
-        padding-top: 94px;
-        width: 1521px    
-    }
+   
 
-    .ULmain3 {
-        display: flex;
-        padding-bottom: 124px;
-    }
 
-    .sectionMain2-list-li {
-        margin-right: 30px;
-    }
 
-    .list-h4 {
-      font-size:16px;
-      font-weight: medium;
-      margin-bottom: 10px;
-      text-align: center;
-      padding-top: 30px;
-    }
 
-    .list-p {
-        font-size:16px;
-        color: #757575;
-        padding-bottom: 30px;
-        text-align: center;
-    }
-
-.ULmain3 img {
-    height: 260px; width: 270px;
-}
 
 
 
@@ -265,9 +231,7 @@ letter-spacing: 3%;
 
 
 
-/* .holder {
-    margin-bottom: 10px;
-} */
+
 
 .networks-svg1 {
     margin-left: 12px;
@@ -282,9 +246,6 @@ letter-spacing: 3%;
 
 
 
-td > p {
-    font-family:RobotoRegular;
-}
 
 
 
@@ -298,73 +259,20 @@ td > p {
 }
 
 
-.list-p {
-    padding-bottom: 16px;
-}
-
-.networks {
-    display: flex;
-}
-
-.networks-in {
-    width: 20px;
-    height: 20px;
-}
-
-.networks-facebook {
-width: 10px;
-height: 20px;
-margin-left: 16px !important;
-}
-
-.networks-twitter {
-height: 16px;
-width: 20px;
-margin-top: 14.5px !important ;
-}
-
-.networks-instagramm {
-    height: 20px;
-    width: 20px;
-}
-
-.networks-li {
-    height: 44px;
-    width: 44px;
-    margin-right: 10px;
-    transition: background-color 250ms ease-in-out, border-radius 250ms ease-in-out ;
-}
-
-.networks {
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-    fill: #757575;
-}
-
-.networks-li:hover .networks-svg {
-    fill: white;
-}
 
 
 
-.networks-li:hover {
-    background-color: #2196F3;
-    border-radius:50%;
-    cursor: pointer;
-}
 
 
-.networks-svg:hover .networks {
-    background-color: #2196F3;
-} 
 
-.networks-svg {
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 13px;
-    margin-bottom: 13px;
-}
+
+
+
+
+
+
+
+
 
 
 
