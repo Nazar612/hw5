@@ -419,10 +419,6 @@ body {
           animation-name: ButtonPulsing;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
 }
 
 @-webkit-keyframes ButtonPulsing {
@@ -769,4 +765,122 @@ body {
   width: 93px;
   height: 43px;
   margin-left: 38px;
+}
+
+.footerMain {
+  background-color: #2F303A;
+  padding-bottom: 50px;
+}
+
+.contacts-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-list {
+  margin-right: 70px;
+}
+
+.aMain2 {
+  color: #2196F3;
+  font-family: RalewayBold;
+  font-size: 26px;
+  margin-bottom: 20px;
+  display: block;
+  padding-top: 60px;
+}
+
+#spanf {
+  font-size: 26px;
+  color: white;
+  font-family: RalewayBold;
+}
+
+.footer-li:first-child {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#p {
+  font-family: RobotoRegular;
+  color: white;
+}
+
+.gm {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.mailto {
+  color: #757575;
+  font-family: RobotoRegular;
+}
+
+.Tel2 {
+  color: #757575;
+  font-family: RobotoRegular;
+}
+
+.join {
+  margin-right: 93px;
+}
+
+.fh4 {
+  margin-top: 72px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.networks-li1 {
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
+  -webkit-transition: background-color 250ms ease-out;
+  transition: background-color 250ms ease-out;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-color: #2F303A;
+  margin-top: 20px;
+}
+
+.networks-li1:hover {
+  cursor: pointer;
+  background-color: #2196F3;
+}
+
+.networks-svg1 {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  fill: white;
+}
+
+.forme-holder {
+  margin-top: 72px;
+}
+
+.form-h4 {
+  margin-bottom: 20px;
+  color: #ECECEC;
+}
+
+.input-footer {
+  height: 50px;
+  width: 358px;
+  border-radius: 4px;
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: #2F303A;
+  color: #ECECEC;
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 5px;
+  margin-bottom: 15px;
 }
