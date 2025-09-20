@@ -685,3 +685,88 @@ body {
 .list-p {
   padding-bottom: 16px;
 }
+
+.section-f {
+  padding-bottom: 94px;
+}
+
+.h2-section-f {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  margin-left: 453px;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 3%;
+}
+
+.section-f-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.f-list-li {
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: #ECECEC;
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.f-list-li:nth-last-child {
+  margin-right: 0;
+}
+
+.f-list-li:hover .svg {
+  fill: #2196F3;
+}
+
+.f-list-li:hover {
+  border-color: #2196F3;
+}
+
+.svg {
+  margin-top: 22px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg1 {
+  width: 41px;
+  height: 46px;
+  margin-left: 64px;
+}
+
+.svg2 {
+  width: 40px;
+  height: 52px;
+  margin-left: 65px;
+}
+
+.svg3 {
+  height: 41px;
+  width: 43px;
+  margin-left: 63px;
+}
+
+.svg4 {
+  width: 84px;
+  height: 40px;
+  margin-left: 43px;
+}
+
+.svg5 {
+  width: 62px;
+  height: 45px;
+  margin-left: 54px;
+}
+
+.svg6 {
+  width: 93px;
+  height: 43px;
+  margin-left: 38px;
+}
