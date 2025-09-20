@@ -36,7 +36,7 @@ body {
 
 .aMain1 {
   color: #2196F3;
-  font-family: Raleway-Bold;
+  font-family: RalewayBold;
   font-weight: bold;
   font-size: 26px;
   margin-right: 93px;
@@ -45,7 +45,7 @@ body {
 }
 
 .Studio {
-  font-family: Raleway-Bold;
+  font-family: RalewayBold;
   font-weight: bold;
   font-size: 26px;
   color: black;
@@ -113,7 +113,7 @@ body {
 }
 
 .gmail {
-  font-family: Roboto-Regular;
+  font-family: RobotoRegular;
   color: #757575;
   margin-left: 2px;
   margin-right: 50px;
@@ -122,7 +122,7 @@ body {
 }
 
 .Tel1 {
-  font-family: Roboto-Regular;
+  font-family: RobotoRegular;
   color: #757575;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -174,14 +174,14 @@ body {
 
 @font-face {
   font-family: RobotoRegular;
-  src: url(./assets/fonts/Roboto-Regular.ttf) format(TrueType);
+  src: url(/assets/fonts/RobotoRegular.ttf) format(TrueType);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: RalewayBold;
-  src: url(assets/fonts/Raleway-Bold.ttf) format(TrueType);
+  src: url(/assets/fonts/RalewayBold.ttf) format(TrueType);
   font-weight: 400;
   font-style: normal;
 }
@@ -381,4 +381,141 @@ body {
 .modal-svg {
   height: 18px;
   width: 18px;
+}
+
+.sectionMain1 {
+  background-color: #2F303A;
+  height: 600px;
+  width: 1521px;
+  color: white;
+  background-image: url(/assets/img/Img.jpg);
+}
+
+.h1 {
+  text-align: center;
+  font-family: Roboto-Regular;
+  font-weight: bolder;
+  font-size: 44px;
+  line-height: 60px;
+  padding-top: 200px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  display: inline;
+}
+
+#button1 {
+  background-color: #2196F3;
+  color: white;
+  width: 216px;
+  height: 50px;
+  font-family: RobotoRegular;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 200px;
+  margin-left: 477px;
+  -webkit-animation-name: ButtonPulsing;
+          animation-name: ButtonPulsing;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes ButtonPulsing {
+  from {
+    background-color: #2196F3;
+    font-size: 16px;
+  }
+  to {
+    background-color: #0c71c3;
+    font-size: 16.5px;
+  }
+}
+
+@keyframes ButtonPulsing {
+  from {
+    background-color: #2196F3;
+    font-size: 16px;
+  }
+  to {
+    background-color: #0c71c3;
+    font-size: 16.5px;
+  }
+}
+
+.section-main-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 87px;
+  font-family: RobotoRegular;
+}
+
+.main-list-li:nth-child(1)::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(/assets/img/antenna1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.main-list-li:nth-child(2)::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(/assets/img/clock1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.main-list-li:nth-child(3)::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(/assets/img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.main-list-li:nth-child(4)::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(/assets/img/astronaut1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.m-li-h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.m-li-p {
+  color: #757575;
+  line-height: 24px;
+  letter-spacing: 3%;
+  margin-right: 30px;
 }

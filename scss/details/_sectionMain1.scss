@@ -1,0 +1,49 @@
+.sectionMain1 {
+    background-color:#2F303A;
+     height: 600px; width: 1521px;
+      color: white;
+    background-image: url(/assets/img/Img.jpg);
+    
+    }
+
+    
+.h1 {
+    text-align: center;
+     font-family:Roboto-Regular;
+     font-weight: bolder;
+     font-size: 44px;
+     line-height: 60px;
+     padding-top: 200px;
+     margin-bottom:30px;
+     margin-left:300px;
+     display: inline;
+    }
+
+    #button1 
+{background-color:#2196F3;
+     color: white;
+      width: 216px; height: 50px;
+      font-family:RobotoRegular;
+      border-radius:4px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 30px;
+      margin-bottom:200px ;
+      margin-left: 477px;
+      animation-name:ButtonPulsing;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+     @keyframes ButtonPulsing {
+        from {
+            background-color: #2196F3;
+            font-size: 16px;
+        }
+
+        to {
+            background-color: #0c71c3;
+            font-size: 16.5px;
+        }
+    }
