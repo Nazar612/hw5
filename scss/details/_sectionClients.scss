@@ -1,8 +1,9 @@
-.section-f{
+.sectionClients-list{
     padding-bottom: 94px;
+    display: flex;
 }
 
-.h2-section-f{
+.sectionClients-h2{
     margin-top:94px ;
     margin-bottom:50px ;
     margin-left: 453px;
@@ -16,7 +17,7 @@
     display: flex;
 }
 
-.f-list-li {
+.sectionClients-list-li{
     width: 170px;
     height: 92px;
     margin-right:30px ;
@@ -27,15 +28,15 @@
     transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.f-list-li:nth-last-child {
+.sectionClients-list-li:nth-last-child {
     margin-right:0 ;
  }
 
- .f-list-li:hover .svg {
+ .sectionClients-list-li:hover .svg {
     fill: #2196F3;
  }
 
-  .f-list-li:hover {
+  .sectionClients-list-li:hover {
     border-color: #2196F3;
  }
 
