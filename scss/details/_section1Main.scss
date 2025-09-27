@@ -84,7 +84,7 @@ background: linear-gradient(312deg,rgba(33, 150, 243, 1) 0%, rgba(255, 255, 255,
 
      @keyframes ButtonPulsing {
         from {
-            background-color: #2196F3;
+            background-color: $Element-background-color;
             font-size: 16px;
         }
 
