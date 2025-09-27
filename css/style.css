@@ -952,7 +952,7 @@ body {
   margin-bottom: 15px;
 }
 
-.Uli3 {
+.PortfolioMain-list {
   font-family: RobotoRegular;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -962,7 +962,7 @@ body {
   margin-left: 297px;
 }
 
-.Uli3 a {
+.PortfolioMain-list a {
   color: #000000;
 }
 
@@ -991,11 +991,6 @@ body {
   background-color: #F5F4FA;
   font-weight: 400;
   font-size: 16px;
-}
-
-.Uli3-li-a {
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .style {
