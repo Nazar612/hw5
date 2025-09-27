@@ -383,7 +383,7 @@ body {
   width: 18px;
 }
 
-.sectionMain1 {
+.section1-main {
   background-color: #2F303A;
   height: 600px;
   width: 1521px;
@@ -391,7 +391,7 @@ body {
   background-image: url(/assets/img/Img.jpg);
 }
 
-.h1 {
+.section-main1-h1 {
   text-align: center;
   font-family: RobotoRegular;
   font-weight: bolder;
@@ -403,7 +403,7 @@ body {
   display: inline;
 }
 
-#button1 {
+#section-main1-button {
   background-color: #2196F3;
   color: white;
   width: 216px;
@@ -427,7 +427,7 @@ body {
           animation-direction: alternate;
 }
 
-#button1::after {
+#section-main1-button::after {
   content: "";
   display: block;
   bottom: -10px;
@@ -505,7 +505,7 @@ body {
   }
 }
 
-.section-main-list {
+.section2Main-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -513,7 +513,11 @@ body {
   font-family: RobotoRegular;
 }
 
-.main-list-li:nth-child(1)::before {
+.section2Main-list-li {
+  margin-right: 2rem;
+}
+
+.section2Main-list-li:nth-child(1)::before {
   content: "";
   display: block;
   width: 270px;
@@ -526,7 +530,7 @@ body {
   border-radius: 4px;
 }
 
-.main-list-li:nth-child(2)::before {
+.section2Main-list-li:nth-child(2)::before {
   content: "";
   display: block;
   width: 270px;
@@ -539,7 +543,7 @@ body {
   border-radius: 4px;
 }
 
-.main-list-li:nth-child(3)::before {
+.section2Main-list-li:nth-child(3)::before {
   content: "";
   display: block;
   width: 270px;
@@ -552,7 +556,7 @@ body {
   border-radius: 4px;
 }
 
-.main-list-li:nth-child(4)::before {
+.section2Main-list-li:nth-child(4)::before {
   content: "";
   display: block;
   width: 270px;
@@ -565,24 +569,22 @@ body {
   border-radius: 4px;
 }
 
-.m-li-h3 {
+.section2Main-h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-right: 30px;
 }
 
-.m-li-p {
+.section2Main-p {
   color: #757575;
   line-height: 24px;
   letter-spacing: 3%;
-  margin-right: 30px;
 }
 
-.main-section2 {
+.section3Main {
   padding-bottom: 94px;
 }
 
-.h2 {
+.section3Main-h2 {
   font-family: RobotoRegular;
   font-size: 36px;
   font-weight: bold;
@@ -592,13 +594,13 @@ body {
   text-align: center;
 }
 
-.list {
+.section3Main-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.list-li {
+.section3Main-li {
   margin-right: 30px;
   position: relative;
 }
@@ -611,21 +613,21 @@ body {
   bottom: 0;
 }
 
-.list-li-p {
+.section3Main-li-p {
   padding-top: 27px;
   padding-bottom: 27px;
   color: white;
   position: relative;
 }
 
-.sectionMain2 {
+.section4Main {
   font-family: RobotoRegular;
   background-color: #F5F4FA;
   padding-top: 94px;
   width: 1521px;
 }
 
-.H2 {
+.section4Main-h2 {
   font-family: RobotoRegular;
   font-size: 36px;
   font-weight: bold;

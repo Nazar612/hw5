@@ -1,4 +1,4 @@
-.sectionMain1 {
+.section1-main {
     background-color:#2F303A;
      height: 600px; width: 1521px;
       color: white;
@@ -7,7 +7,7 @@
     }
 
     
-.h1 {
+.section-main1-h1 {
     text-align: center;
      font-family:RobotoRegular;
      font-weight: bolder;
@@ -19,7 +19,7 @@
      display: inline;
     }
 
-    #button1 
+    #section-main1-button
 {background-color:#2196F3;
      color: white;
       width: 216px; height: 50px;
@@ -39,7 +39,7 @@
       
     }
 
-    #button1::after {
+    #section-main1-button::after {
        content: "";
        display: block;
        bottom: -10px;

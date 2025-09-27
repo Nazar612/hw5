@@ -1,8 +1,8 @@
-.main-section2 {
+.section3Main {
     padding-bottom: 94px;
 }
 
-.h2 {
+.section3Main-h2 {
         font-family: RobotoRegular ;
         font-size: 36px;
         font-weight: bold;    
@@ -12,11 +12,11 @@
         text-align: center;
     }
 
-.list {
+.section3Main-list {
         display: flex;
     }
 
-    .list-li {
+    .section3Main-li {
         margin-right:30px;
         position: relative;
     }
@@ -29,7 +29,7 @@
         bottom: 0;
     }
 
-     .list-li-p {
+     .section3Main-li-p{
         padding-top:27px;
         padding-bottom: 27px;
         color: white;
