@@ -12,7 +12,14 @@
   display: flex;
   width: 1270px;
   padding: 0 15px;
-  margin-left: 215px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    display: block;
+    width: 768px;
+  }
 }
 
 * {
@@ -393,10 +400,19 @@ body {
 
 .section1-main {
   background-color: #2F303A;
-  height: 600px;
-  width: 1521px;
   color: white;
   background-image: url(/assets/img/Img.jpg);
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1199px) {
+  .section1-main {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
 }
 
 .section-main1-h1 {
@@ -405,10 +421,16 @@ body {
   font-weight: bolder;
   font-size: 44px;
   line-height: 60px;
-  padding-top: 200px;
   margin-bottom: 30px;
-  margin-left: 300px;
-  display: inline;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .section-main1-h1 {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+  }
 }
 
 #section-main1-button {
@@ -421,8 +443,8 @@ body {
   font-size: 16px;
   font-weight: bold;
   line-height: 30px;
-  margin-bottom: 200px;
-  margin-left: 477px;
+  margin: 0 auto;
+  display: block;
   position: relative;
   overflow: hidden;
   -webkit-animation-name: ButtonColorChange;
@@ -433,6 +455,17 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  margin-top: 30px;
+}
+
+@media (max-width: 1199px) {
+  #section-main1-button {
+    width: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
 }
 
 #section-main1-button::after {
@@ -521,8 +554,34 @@ body {
   font-family: RobotoRegular;
 }
 
+@media (max-width: 1199px) {
+  .section2Main-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (226px)[2];
+        grid-template-columns: repeat(2, 226px);
+    -ms-grid-rows: (354px)[2];
+        grid-template-rows: repeat(2, 354px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    gap: 30px;
+  }
+}
+
 .section2Main-list-li {
   margin-right: 2rem;
+}
+
+@media (max-width: 1199px) {
+  .section2Main-list-li {
+    margin-right: 0;
+  }
+}
+
+.section2Main-list-li:nth-last-child {
+  margin-right: 0;
 }
 
 .section2Main-list-li:nth-child(1)::before {
@@ -538,6 +597,12 @@ body {
   border-radius: 4px;
 }
 
+@media (max-width: 1199px) {
+  .section2Main-list-li:nth-child(1)::before {
+    width: 354px;
+  }
+}
+
 .section2Main-list-li:nth-child(2)::before {
   content: "";
   display: block;
@@ -549,6 +614,12 @@ body {
   background-color: #F5F4FA;
   margin-bottom: 30px;
   border-radius: 4px;
+}
+
+@media (max-width: 1199px) {
+  .section2Main-list-li:nth-child(2)::before {
+    width: 354px;
+  }
 }
 
 .section2Main-list-li:nth-child(3)::before {
@@ -564,6 +635,12 @@ body {
   border-radius: 4px;
 }
 
+@media (max-width: 1199px) {
+  .section2Main-list-li:nth-child(3)::before {
+    width: 354px;
+  }
+}
+
 .section2Main-list-li:nth-child(4)::before {
   content: "";
   display: block;
@@ -577,9 +654,23 @@ body {
   border-radius: 4px;
 }
 
+@media (max-width: 1199px) {
+  .section2Main-list-li:nth-child(4)::before {
+    width: 354px;
+  }
+}
+
 .section2Main-h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1199px) {
+  .section2Main-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+  }
 }
 
 .section2Main-p {
@@ -588,8 +679,23 @@ body {
   letter-spacing: 3%;
 }
 
+@media (max-width: 1199px) {
+  .section2Main-p {
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+  }
+}
+
 .section3Main {
   padding-bottom: 94px;
+}
+
+@media (max-width: 1199px) {
+  .section3Main {
+    display: none;
+  }
 }
 
 .section3Main-h2 {
@@ -632,7 +738,7 @@ body {
   font-family: RobotoRegular;
   background-color: #F5F4FA;
   padding-top: 94px;
-  width: 1521px;
+  padding-bottom: 124px;
 }
 
 .section4Main-h2 {
@@ -648,7 +754,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 124px;
 }
 
 .section4Main-list img {
@@ -992,7 +1097,7 @@ body {
   font-family: RobotoRegular;
   font-size: 16px;
   font-weight: 400;
-  font-style: sol;
+  font-style: normal;
 }
 
 .style {

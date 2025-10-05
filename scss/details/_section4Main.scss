@@ -2,7 +2,11 @@
         font-family:RobotoRegular ;
         background-color: #F5F4FA;
         padding-top: 94px;
-        width: 1521px    
+        padding-bottom: 124px;
+        @media {
+            padding-top:60px ;
+            padding-bottom:60px ;
+        }
     }
   
   .section4Main-h2 {
@@ -16,7 +20,6 @@
 
      .section4Main-list {
         display: flex;
-        padding-bottom: 124px;
     }
 
     .section4Main-list img {

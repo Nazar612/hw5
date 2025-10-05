@@ -2,5 +2,10 @@
     display: flex;
     width: 1270px;
     padding: 0 15px;
-    margin-left: 215px;
+    margin: 0 auto;
+    
+    @media (max-width:1199px) {
+        display: block;
+        width: 768px;
+    }
 }

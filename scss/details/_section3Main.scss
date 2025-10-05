@@ -1,5 +1,9 @@
 .section3Main {
     padding-bottom: 94px;
+
+    @media (max-width:1199px) {
+        display: none;
+    }
 }
 
 .section3Main-h2 {

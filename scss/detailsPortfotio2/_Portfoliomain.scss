@@ -29,5 +29,5 @@
 
 .button-nav{
     background-color: #F5F4FA;
-    @include fonts( 400, 16px, RobotoRegular,)
+    @include fonts( 400, 16px, RobotoRegular, normal)
 }
