@@ -3,7 +3,7 @@
         background-color: #F5F4FA;
         padding-top: 94px;
         padding-bottom: 124px;
-        @media {
+        @media (max-height:1199px) {
             padding-top:60px ;
             padding-bottom:60px ;
         }

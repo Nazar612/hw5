@@ -741,6 +741,13 @@ body {
   padding-bottom: 124px;
 }
 
+@media (max-height: 1199px) {
+  .section4Main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .section4Main-h2 {
   font-family: RobotoRegular;
   font-size: 36px;
