@@ -908,18 +908,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 20px;
 }
 
 @media (max-width: 1199px) {
   .sectionClients-list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (210px)[3];
-        grid-template-columns: repeat(3, 210px);
+    -ms-grid-columns: (226px)[3];
+        grid-template-columns: repeat(3, 226px);
     -ms-grid-rows: (92px)[2];
         grid-template-rows: repeat(2, 92px);
     gap: 30px;
-    padding-bottom: 60px\\\\\\\\\\\\\\\\\\\;;
+    padding-bottom: 60px;
+    margin-left: 0;
   }
 }
 
@@ -961,7 +963,7 @@ body {
 
 @media (max-width: 1199px) {
   .sectionClients-list-li {
-    width: 210px;
+    width: 226px;
     height: 92px;
     margin-right: 0px;
   }
@@ -1000,7 +1002,7 @@ body {
 
 @media (max-width: 1199px) {
   .svg1 {
-    margin-left: 87px;
+    margin-left: 92px;
   }
 }
 
@@ -1012,7 +1014,7 @@ body {
 
 @media (max-width: 1199px) {
   .svg2 {
-    margin-left: 87px;
+    margin-left: 91px;
   }
 }
 
@@ -1024,7 +1026,7 @@ body {
 
 @media (max-width: 1199px) {
   .svg3 {
-    margin-left: 83px;
+    margin-left: 88px;
   }
 }
 
@@ -1036,7 +1038,7 @@ body {
 
 @media (max-width: 1199px) {
   .svg4 {
-    margin-left: 69px;
+    margin-left: 75px;
   }
 }
 
@@ -1048,7 +1050,7 @@ body {
 
 @media (max-width: 1199px) {
   .svg5 {
-    margin-left: 73px;
+    margin-left: 78px;
   }
 }
 
@@ -1060,7 +1062,7 @@ body {
 
 @media (max-width: 1199px) {
   .svg6 {
-    margin-left: 55px;
+    margin-left: 60px;
   }
 }
 
