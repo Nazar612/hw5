@@ -6,6 +6,7 @@
         @media (max-width:1199px) {
             padding-top:60px ;
             padding-bottom:60px ;
+            width: 768px;
         }
     }
   
@@ -29,16 +30,16 @@
         @media (max-width:1199px) {
             display: grid;
             grid-template-columns: repeat(2, 354px ) ;
-            grid-template-rows: repeat(2, 568px);
-            gap: 50px;
+            grid-template-rows: repeat(2, 536px);
+            gap: 30px;
         }
     }
 
     .section4Main-list img {
     height: 260px; width: 270px;
     @media (max-width:1199px) {
-        width: 374px;
-        height: 354px;
+        width: 354px;
+        height: 374px;
     }
 }
 
@@ -46,7 +47,7 @@
         margin-right: 30px; 
         @media (max-width:1199px) {
             height: 536px;
-            width: 374px;
+            width: 354px;
             margin-right: 0px;
         }
     }

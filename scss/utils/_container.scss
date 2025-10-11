@@ -1,12 +1,11 @@
 .container {
-    display: flex;
+   
     width: 1270px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
     
     @media (max-width:1199px) {
-        display: block;
         width: 768px;
     }
 }
