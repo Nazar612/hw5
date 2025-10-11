@@ -11,7 +11,8 @@
   display: -ms-flexbox;
   display: flex;
   width: 1270px;
-  padding: 0 15px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin: 0 auto;
 }
 
@@ -894,7 +895,7 @@ body {
 .networks-facebook {
   width: 10px;
   height: 20px;
-  margin-left: 16px;
+  margin-left: 16px !important;
 }
 
 .networks-twitter {
@@ -1071,10 +1072,27 @@ body {
   padding-bottom: 50px;
 }
 
+@media (max-width: 1199px) {
+  .footerMain {
+    padding-bottom: 306px;
+    position: relative;
+  }
+}
+
 .contacts-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 1199px) {
+  .contacts-footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 50px;
+    margin: 0 auto;
+  }
 }
 
 .footer-list {
@@ -1090,6 +1108,12 @@ body {
   padding-top: 60px;
 }
 
+@media (max-width: 1199px) {
+  .aMain2 {
+    margin-left: 39px;
+  }
+}
+
 #spanf {
   font-size: 26px;
   color: white;
@@ -1099,6 +1123,12 @@ body {
 .footer-li:first-child {
   margin-top: 20px;
   font-size: 14px;
+}
+
+@media (max-width: 1199px) {
+  .footer-li {
+    margin-bottom: 20px;
+  }
 }
 
 #p {
@@ -1111,6 +1141,13 @@ body {
   margin-bottom: 9px;
 }
 
+@media (max-width: 1199px) {
+  .gm {
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+}
+
 .mailto {
   color: #757575;
   font-family: RobotoRegular;
@@ -1119,6 +1156,12 @@ body {
 .Tel2 {
   color: #757575;
   font-family: RobotoRegular;
+}
+
+@media (max-width: 1199px) {
+  .Tel2 {
+    margin-left: 37px;
+  }
 }
 
 .join {
@@ -1166,6 +1209,16 @@ body {
   margin-top: 72px;
 }
 
+@media (max-width: 1199px) {
+  .forme-holder2 {
+    position: absolute;
+    top: 200px;
+    display: block;
+    width: 700px;
+    text-align: center;
+  }
+}
+
 .form-h4 {
   margin-bottom: 20px;
   color: #ECECEC;
@@ -1181,7 +1234,18 @@ body {
   font-size: 16px;
   padding-left: 16px;
   padding-right: 5px;
-  margin-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+  .input-footer {
+    display: block;
+    margin: auto;
+    width: 450px;
+  }
+}
+
+.footer-button {
+  margin-top: 15px;
 }
 
 .PortfolioMain-list {
