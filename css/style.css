@@ -1165,7 +1165,7 @@ body {
   display: flex;
   justify-content: center;
 }
-@media (min-width: 768px) {
+@media (max-width: 1199px) {
   .PortfolioMain-navigation {
     margin-bottom: 36px;
     margin-top: 66px;
@@ -1201,7 +1201,6 @@ body {
   display: flex;
   padding-bottom: 30px;
 }
-
 .style-list:last-child {
   padding-bottom: 94px;
 }
@@ -1249,16 +1248,29 @@ body {
 
 .style-list-li-img {
   position: relative;
+  height: 294px;
+  width: 370px;
+}
+@media (max-width: 1199px) {
+  .style-list-li-img {
+    height: 294px;
+    width: 354px;
+  }
 }
 
 .front-holder {
   overflow: hidden;
-  width: 370px;
+  width: 374px;
   height: 294px;
   position: absolute;
   top: 0;
   opacity: 0;
   transition: opacity 250ms ease-in-out;
+}
+@media (max-width: 1199px) {
+  .front-holder {
+    width: 354px;
+  }
 }
 
 .front {
@@ -1269,6 +1281,11 @@ body {
   position: absolute;
   top: 400px;
   transition: top 250ms ease-in-out;
+}
+@media (max-width: 1199px) {
+  .front {
+    width: 354px;
+  }
 }
 
 .div-p {
@@ -1283,6 +1300,12 @@ body {
   margin-left: 24px;
   margin-top: 63px;
 }
+@media (max-width: 1199px) {
+  .div-p {
+    width: 306px;
+    margin-top: 49px;
+  }
+}
 
 .img-padding {
   padding-bottom: 20px;
@@ -1291,6 +1314,11 @@ body {
   border-top: 0px;
   border-width: thin;
 }
+@media (max-width: 1199px) {
+  .img-padding {
+    padding-bottom: 56px;
+  }
+}
 
 .style-list-li-img-h4 {
   padding-top: 25px;
@@ -1298,6 +1326,11 @@ body {
   margin-left: 24px;
   font-size: 18px;
   font-weight: 700;
+}
+@media (max-width: 1199px) {
+  .style-list-li-img-h4 {
+    width: 306px;
+  }
 }
 
 .style-list-li-img-p {
