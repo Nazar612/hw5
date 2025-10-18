@@ -1153,13 +1153,23 @@ body {
 .PortfolioMain-list {
   font-family: RobotoRegular;
   display: flex;
-  margin-bottom: 50px;
-  margin-top: 94px;
-  margin-left: 297px;
 }
 
 .PortfolioMain-list a {
   color: #000000;
+}
+
+.PortfolioMain-navigation {
+  margin-bottom: 50px;
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .PortfolioMain-navigation {
+    margin-bottom: 36px;
+    margin-top: 66px;
+  }
 }
 
 .button-nav {
