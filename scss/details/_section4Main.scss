@@ -6,7 +6,6 @@
         @media (max-width:1199px) {
             padding-top:60px ;
             padding-bottom:60px ;
-            // width: 768px;
         }
     }
   
@@ -21,7 +20,10 @@
             font-size:28px ;
             margin-left: 267px;
             margin-bottom: 30px;
-            
+        }
+        
+        @media (max-width:767px) {
+            margin-left: 110px;
         }
     }
 
@@ -33,6 +35,10 @@
             grid-template-rows: repeat(2, 536px);
             gap: 30px;
         }
+
+        @media (max-width:767px) {
+        display: block;
+        }
     }
 
     .section4Main-list img {
@@ -41,6 +47,11 @@
         width: 354px;
         height: 374px;
     }
+
+    @media (max-width:767px) {
+         height: 420px;
+         width: 410px;   
+        }
 }
 
  .section4Main-list-li {
@@ -49,6 +60,17 @@
             height: 536px;
             width: 354px;
             margin-right: 0px;
+        }
+
+        @media (max-width:767px) {
+            width: 410px;
+            margin-bottom: 80px;
+        }
+    }
+
+    .section4Main-list-li:nth-last-child {
+        @media (max-width:767px) {
+            margin-bottom: 0;
         }
     }
 
