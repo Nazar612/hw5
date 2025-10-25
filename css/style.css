@@ -1151,11 +1151,17 @@ body {
 @media (max-width: 767px) {
   .contacts-footer {
     display: block;
+    text-align: center;
   }
 }
 
 .footer-list {
   margin-right: 70px;
+}
+@media (max-width: 767px) {
+  .footer-list {
+    margin-right: 0px;
+  }
 }
 
 .aMain2 {
@@ -1187,11 +1193,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
 }
 @media (max-width: 1199px) {
   .networks2 {
     padding-bottom: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .networks2 {
+    margin-left: 30px;
+    justify-content: center;
   }
 }
 
@@ -1204,6 +1215,11 @@ body {
 #p {
   font-family: RobotoRegular;
   color: white;
+}
+@media (max-width: 767px) {
+  #p {
+    margin-left: 30px;
+  }
 }
 
 .gm {
@@ -1235,6 +1251,11 @@ body {
 .join {
   margin-right: 93px;
 }
+@media (max-width: 767px) {
+  .join {
+    margin: 0 auto;
+  }
+}
 
 .fh4 {
   margin-top: 72px;
@@ -1244,6 +1265,11 @@ body {
   letter-spacing: 3%;
   text-transform: uppercase;
   color: white;
+}
+@media (max-width: 767px) {
+  .fh4 {
+    margin-left: 30px;
+  }
 }
 
 .networks-li1 {
@@ -1287,6 +1313,7 @@ body {
 @media (max-width: 767px) {
   .forme-holder2 {
     top: 400px;
+    left: -123px;
   }
 }
 

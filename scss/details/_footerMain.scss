@@ -17,11 +17,15 @@
 
     @media (max-width:767px) {
         display: block;
+        text-align: center;
     }
 }
 
 .footer-list {
     margin-right: 70px;
+      @media (max-width:767px) {
+    margin-right: 0px;
+    }
 }   
 
 .aMain2 
@@ -54,10 +58,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
 
     @media (max-width:1199px) {
         padding-bottom: 24px;
+    }
+
+    @media (max-width:767px) {
+        margin-left: 30px;
+       justify-content: center;
     }
 
 }
@@ -71,6 +79,9 @@
 #p {
     font-family: RobotoRegular;
     color: white;
+     @media (max-width:767px) {
+     margin-left: 30px;
+    }
 }
 
 .gm{
@@ -97,6 +108,9 @@
 
 .join {
     margin-right: 93px;
+     @media (max-width:767px) {
+        margin:0 auto;
+    }
 }
 
 .fh4 {
@@ -107,6 +121,10 @@ line-height: 16px;
 letter-spacing: 3%;
 text-transform: uppercase;
 color:white;
+
+ @media (max-width:767px) {
+    margin-left: 30px;
+}
 }
 
 .networks-li1 {
@@ -150,6 +168,7 @@ background: rgba(255, 255, 255, 0.1);
 
       @media (max-width:767px) {
      top: 400px;
+    left: -123px; ;
     }
 }
 
