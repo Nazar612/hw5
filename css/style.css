@@ -957,6 +957,12 @@ body {
     margin-left: 0;
   }
 }
+@media (max-width: 767px) {
+  .sectionClients-list {
+    grid-template-columns: repeat(2, 185px);
+    grid-template-rows: repeat(3, 92px);
+  }
+}
 
 .sectionClients-h2 {
   margin-top: 94px;
@@ -972,6 +978,11 @@ body {
     font-size: 28px;
     margin-bottom: 30px;
     margin-top: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .sectionClients-h2 {
+    margin-left: 98px;
   }
 }
 
@@ -994,6 +1005,11 @@ body {
     width: 226px;
     height: 92px;
     margin-right: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .sectionClients-list-li {
+    width: 185px;
   }
 }
 
@@ -1030,6 +1046,11 @@ body {
     margin-left: 92px;
   }
 }
+@media (max-width: 767px) {
+  .svg1 {
+    margin-left: 72px;
+  }
+}
 
 .svg2 {
   width: 40px;
@@ -1039,6 +1060,11 @@ body {
 @media (max-width: 1199px) {
   .svg2 {
     margin-left: 91px;
+  }
+}
+@media (max-width: 767px) {
+  .svg2 {
+    margin-left: 71px;
   }
 }
 
@@ -1052,6 +1078,11 @@ body {
     margin-left: 88px;
   }
 }
+@media (max-width: 767px) {
+  .svg3 {
+    margin-left: 68px;
+  }
+}
 
 .svg4 {
   width: 84px;
@@ -1063,6 +1094,11 @@ body {
     margin-left: 75px;
   }
 }
+@media (max-width: 767px) {
+  .svg4 {
+    margin-left: 59px;
+  }
+}
 
 .svg5 {
   width: 62px;
@@ -1071,7 +1107,7 @@ body {
 }
 @media (max-width: 1199px) {
   .svg5 {
-    margin-left: 78px;
+    margin-left: 59px;
   }
 }
 
@@ -1083,6 +1119,11 @@ body {
 @media (max-width: 1199px) {
   .svg6 {
     margin-left: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .svg6 {
+    margin-left: 54px;
   }
 }
 
@@ -1105,6 +1146,11 @@ body {
     justify-content: space-between;
     margin-left: 50px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .contacts-footer {
+    display: block;
   }
 }
 
@@ -1135,6 +1181,18 @@ body {
 .footer-li:first-child {
   margin-top: 20px;
   font-size: 14px;
+}
+
+.networks2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+@media (max-width: 1199px) {
+  .networks2 {
+    padding-bottom: 24px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -1224,6 +1282,11 @@ body {
     display: block;
     width: 700px;
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .forme-holder2 {
+    top: 400px;
   }
 }
 

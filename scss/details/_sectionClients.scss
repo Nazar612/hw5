@@ -10,6 +10,11 @@
            padding-bottom: 60px;
            margin-left: 0;
         }
+
+        @media (max-width:767px) {
+         grid-template-columns:repeat(2, 185px) ;
+         grid-template-rows: repeat(3, 92px);   
+        }
 }
 
 .sectionClients-h2{
@@ -25,6 +30,10 @@
             font-size: 28px;
             margin-bottom:30px;
             margin-top: 60px;
+        }
+
+        @media (max-width:767px) {
+         margin-left: 98px;   
         }
    
 }
@@ -47,6 +56,10 @@
          width:226px;
          height: 92px;
          margin-right: 0px;
+        }
+
+        @media (max-width:767px) {
+         width: 185px;   
         }
 }
 
@@ -77,6 +90,10 @@
           @media (max-width:1199px) {
         margin-left: 92px; 
         }
+
+        @media (max-width:767px) {
+         margin-left: 72px;   
+        }
     }
 
     
@@ -87,6 +104,10 @@
          @media (max-width:1199px) {
         margin-left: 91px; 
         }
+
+        @media (max-width:767px) {
+            margin-left: 71px;    
+        }
     }
     
     .svg3 {
@@ -95,6 +116,10 @@
          margin-left: 63px;
           @media (max-width:1199px) {
         margin-left: 88px; 
+        }
+
+        @media (max-width:767px) {
+            margin-left: 68px;
         }
   }
 
@@ -106,6 +131,10 @@
          @media (max-width:1199px) {
         margin-left: 75px; 
         }
+
+        @media (max-width:767px) {
+         margin-left: 59px;   
+        }
     }
 
     
@@ -114,7 +143,7 @@
         height: 45px;
         margin-left: 54px;
          @media (max-width:1199px) {
-        margin-left: 78px; 
+        margin-left: 59px; 
         }
     }
 
@@ -125,5 +154,9 @@
         margin-left: 38px;
          @media (max-width:1199px) {
         margin-left: 60px; 
+        }
+
+        @media (max-width:767px) {
+         margin-left: 54px;   
         }
     }
