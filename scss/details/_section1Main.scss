@@ -10,6 +10,12 @@
     @media (max-width:1199px) {
         padding-top:118px;
         padding-bottom: 118px;
+        background-position: center;
+    }
+
+    @media (max-width:767px) {
+     padding-top: 116px;   
+     background-position: center;
     }
     
     }
@@ -53,6 +59,10 @@ font-size: 16px;
 line-height: 30px;
 margin-top: 40px;
       }
+
+      @media (max-width:767px) {
+     margin-top: 32px;   
+    }
       
     }
 
