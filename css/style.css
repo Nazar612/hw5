@@ -1345,6 +1345,38 @@ body {
   margin-top: 15px;
 }
 
+.mobile-menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  position: fixed;
+  z-index: 40;
+  padding: 40px;
+  transition: transform 250ms linear;
+}
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.open-mobileMenu {
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+  margin: auto 0;
+}
+@media (min-width: 768px) {
+  .open-mobileMenu {
+    display: none;
+  }
+}
+
+.is-hidden-mob {
+  transform: translateX(100%);
+}
+
 .PortfolioMain-list {
   font-family: RobotoRegular;
   display: flex;
