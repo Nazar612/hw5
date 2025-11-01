@@ -2,7 +2,7 @@
     font-family:RobotoRegular;
     display: flex;
     @media(max-width: 767px) {
-     display: none;   
+     flex-wrap: wrap;
     }
 }
 
@@ -28,6 +28,10 @@
     border-radius: 4px;
     font-weight: 500;
     border-width: 0;
+}
+
+.PortfolioMain-list-li:nth-child(n + 4) {
+    margin-top: 15px ;
 }
 
 .button-nav:focus {

@@ -1507,7 +1507,14 @@ body {
   line-height: 40px;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+
+.mobile-menu-list2-li {
   margin-bottom: 32px;
+}
+
+.mobile-menu-list2-li:nth-last-child {
+  margin-bottom: 0;
 }
 
 .mobileMenu-list2-li-gmail {
@@ -1535,7 +1542,7 @@ body {
 }
 @media (max-width: 767px) {
   .PortfolioMain-list {
-    display: none;
+    flex-wrap: wrap;
   }
 }
 
@@ -1563,6 +1570,10 @@ body {
   border-radius: 4px;
   font-weight: 500;
   border-width: 0;
+}
+
+.PortfolioMain-list-li:nth-child(n+4) {
+  margin-top: 15px;
 }
 
 .button-nav:focus a {
