@@ -13,9 +13,33 @@
     <title>Document</title>
 </head>
 <body class="body2">
-    <header class="header">
+   <header class="header">
      <div class="container header-flex">
         <a href="https://www.figma.com/design/kdAuQh8S4CzHE70obav3Wc/WebStudio?node-id=0-1&p=f&t=rvBPKRNyvYfGpiF7-0" target="_blank" class="header-logo-a">Web<span class="header-logo-span">Studio</span></a>
+
+        <button class="open-mobileMenu mob-menu__button--open">
+            <img src="./assets/img/menu_24px.png" alt="">
+        </button>
+
+        <div class="mobile-menu mob-menu is-hidden-mob">
+
+            <button class="close-mobileMenu mob-menu__button--close">~
+            <svg><use href="./assets/svg/symbol-defs.svg#icon-close"></use></svg>
+        </button>
+    
+        <nav class="mobileMenu-nav">
+            <ul class="mobileMenu-list">
+                <li class="mobileMenu-list-li"><a href="" class="mobileMenu-list-a">Студія</a></li>
+
+                
+                <li class="mobileMenu-list-li"><a href="" class="mobileMenu-list-a">Портфоліо</a></li>
+
+                
+                <li class="mobileMenu-list-li"><a href="" class="mobileMenu-list-a">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+
        <nav class="navigation"> 
         <ul class="header-list1">
                 <li class="header-list1-li header-li"><a href="index.html" class="header-list1-a list-studio">Студія</a></li>
@@ -40,14 +64,68 @@
 
                     <a href="tel:+380961111111" class="Tel1 inf">+38 096 111 11 11</a></li>            
             
-            </ul>     
+            </ul>
+
+            <div class="background is-hidden" data-modal>
+                <div class="modal">
+                    <button class="close" data-modal-close>
+                       <svg class="modal-close-svg"><use href="./assets/svg/symbol-defs.svg#icon-close"></use></svg></button>
+<div class="container2">                              
+
+
+                       <h4 class="modal-h4">Залиште свої дані, ми вам передзвонимо</h4>
+
+                       <form class="modal-form">
+                        <ul class="modal-list">
+
+                        <li class="modal-li1">
+                        <p class="modal-name modal-p">Ім'я</p>
+                         <div class="divv-2">
+                        <input type="text" class="modal-input input-setting1">
+                        <svg class="name-svg modal-svg"><use href="./assets/svg/symbol-defs.svg#icon-Vector-11"></use></svg></div>
+                        </li>
+
+
+                         <li class="modal-li2">
+                            <p class="modal-number modal-p">Телефон</p>
+
+                        <div class="divv-2"><input type="text" class="modal-input input-setting2">
+                        <svg class="number-svg modal-svg"><use href="./assets/svg/symbol-defs1.svg#icon-phone-black-18dp-1"></use></svg></div></li>
+
+                         <li class="modal-li3"><p class="modal-mail modal-p">Пошта</p>
+
+                       <div class="divv-2">
+                        <input type="text" class="modal-input input-setting3">
+                        <svg class="mail-svg modal-svg"><use href="./assets/svg/symbol-defs.svg#icon-mail"></use></svg></div>
+                        </li>
+
+                    <li class="modal-li modal-li1"><p class="modal-comment modal-p">Коментар</p>
+
+                        <textarea rows="5" cols="33" placeholder="Введіть текст" class="textarea"></textarea>
+                        
+                        </li>
+
+                        <li class="modal-li checkbox">
+                            <input type="checkbox" class="input-modal-checkbox">
+                            <p class="modal-li-p2">Погоджуюся з розсилкою та приймаю <a href="" class="p-a">Умови договору</a></p>
+                        </li>
+                        </ul>
+
+                        <button class="modal-button">Відправити</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+
 </div>
    </header>
 
    <main class="PortfolioMain">
 
     <div class="container">
+
     <nav class="PortfolioMain-navigation">
+
     <ul class="PortfolioMain-list">
     <li class="PortfolioMain-list-li"><button class="button-nav">Усі</button></li>
 
@@ -120,8 +198,10 @@
     
     </main>
 
-    <footer class="footerMain">
-    <div class="container contacts-footer"><ul class="footer-list">
+       <footer class="footerMain">
+    <div class="container contacts-footer">
+        <ul class="footer-list">
+
     <a href="https://www.figma.com/design/kdAuQh8S4CzHE70obav3Wc/WebStudio?node-id=0-1&p=f&t=rvBPKRNyvYfGpiF7-0" class="aMain2">Web<span id="spanf">Studio</span></a>
    
     
@@ -129,10 +209,11 @@
                 <li class="footer-li gm"><a href="mailto:info@devstudio.com" class="mailto li-mail">info@devstudio.com</a></li>
                 <li class="footer-li"><a href="tel:" class="Tel2">+38 096 111 11 11</a></li>
                 </li></ul>
+    
                 
                 <div class="join"><h4 class="fh4">Приєднуйтесь</h4>
 
-                    <ul class="networks">
+                    <ul class="networks2">
                 <li class="networks-li1"><svg class="networks-svg1 networks-instagramm"><use href="./assets/svg/symbol-defs1.svg#icon-instagramm"></use></svg></li>
 
                 <li class="networks-li1"><svg class="networks-svg1 networks-twitter"><use href="./assets/svg/symbol-defs1.svg#icon-twitter"></use></svg></li>
@@ -143,17 +224,16 @@
             </ul>
                 </div>
 
-                <div class="forme-holder2">
+                 <div class="forme-holder2">
                    
                     <div class="holder"><h4 class="form-h4">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h4>
                     <form class="form-footer">
                         <input type="text" class="input-footer" placeholder="E-mail">
                         <button class="footer-button">Підписатися <svg class="svg-footer2"><use href="./assets/svg/symbol-defs1.svg#icon-icon-send"></use></svg> </button>
                     </form></div>
-
-                    
                 </div>
                 </div>
    </footer>
+    <script src="script2.js"></script>
 </body>
 </html>
