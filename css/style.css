@@ -1313,7 +1313,8 @@ body {
 @media (max-width: 767px) {
   .forme-holder2 {
     top: 400px;
-    left: -123px;
+    left: 0px;
+    width: 450px;
   }
 }
 
@@ -1338,6 +1339,11 @@ body {
     display: block;
     margin: auto;
     width: 450px;
+  }
+}
+@media (max-width: 767px) {
+  .input-footer {
+    width: 410px;
   }
 }
 
