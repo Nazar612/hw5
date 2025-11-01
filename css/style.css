@@ -277,6 +277,12 @@ body {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   background: rgb(255, 255, 255);
 }
+@media (max-width: 767px) {
+  .modal {
+    width: 430px;
+    height: 609px;
+  }
+}
 
 .close {
   display: block;
@@ -288,6 +294,11 @@ body {
   justify-content: left;
   margin-top: 8px;
   margin-left: 490px;
+}
+@media (max-width: 767px) {
+  .close {
+    margin-left: 390px;
+  }
 }
 
 .close:hover .modal-close-svg {
@@ -302,12 +313,17 @@ body {
 
 .modal-h4 {
   color: rgb(33, 33, 33);
-  font-family: Roboto-Regular;
-  font-size: 20px;
+  font-family: RobotoRegular;
+  font-size: 17px;
   font-weight: 600;
   line-height: 100%;
   text-align: center;
   margin-bottom: 12px;
+}
+@media (max-width: 767px) {
+  .modal-h4 {
+    margin-right: 30px;
+  }
 }
 
 .modal-p {
@@ -334,6 +350,11 @@ body {
   width: 448px;
   padding-left: 40px;
 }
+@media (max-width: 767px) {
+  .modal-input {
+    width: 350px;
+  }
+}
 
 .modal-input:focus {
   border: solid 1px #2196F3;
@@ -351,6 +372,12 @@ body {
   position: relative;
   left: 0.7rem;
   top: -1.85rem;
+}
+@media (max-width: 767px) {
+  .modal-svg {
+    top: 5px;
+    left: -340px;
+  }
 }
 
 .divv-2:focus .modal-svg {
@@ -373,6 +400,12 @@ body {
   height: 108px;
   resize: none;
 }
+@media (max-width: 767px) {
+  .textarea {
+    width: 350px;
+    height: 100px;
+  }
+}
 
 .textarea:focus {
   border-color: #2196F3;
@@ -390,6 +423,11 @@ body {
 
 .checkbox {
   text-align: center;
+}
+@media (max-width: 767px) {
+  .checkbox {
+    text-align: left;
+  }
 }
 
 .modal-li-p2 {
@@ -422,10 +460,20 @@ body {
   letter-spacing: 6%;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .modal-button {
+    margin-left: 80px;
+  }
+}
 
 .container2 {
   width: 448px;
   margin-left: 40px;
+}
+@media (max-width: 767px) {
+  .container2 {
+    width: 380px;
+  }
 }
 
 .input-setting {
