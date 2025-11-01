@@ -75,6 +75,10 @@
     border-right:1px solid #212121
 }
 
+.mobileMenu-listNetworks-li:first-child {
+    padding-left: 0px;
+}
+
 .mobileMenu-list-a {
 
 font-family: 'RobotoRegular';
@@ -121,5 +125,20 @@ line-height: 28px;
 letter-spacing: 0.02em;
 
 color: #757575;
+}
+
+.mobileMenu-listNetworks-li-a {
+
+
+font-family: 'RobotoRegular';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+
+
 }
 
