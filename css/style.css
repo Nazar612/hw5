@@ -26,6 +26,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -1551,8 +1552,10 @@ body {
   border-width: 0;
 }
 
-.PortfolioMain-list-li:nth-child(n+4) {
-  margin-top: 15px;
+@media (max-width: 767px) {
+  .PortfolioMain-list-li:nth-child(n+4) {
+    margin-top: 15px;
+  }
 }
 
 .button-nav:focus a {
