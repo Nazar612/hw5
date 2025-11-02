@@ -37,9 +37,7 @@
     display: block;
     padding-top: 60px;
 
-     @media (max-width:1199px) {
-     margin-left: 39px;
-    }
+    
 }
 
 #spanf {
@@ -64,7 +62,6 @@
     }
 
     @media (max-width:767px) {
-        margin-left: 30px;
        justify-content: center;
     }
 
@@ -79,9 +76,7 @@
 #p {
     font-family: RobotoRegular;
     color: white;
-     @media (max-width:767px) {
-     margin-left: 30px;
-    }
+     
 }
 
 .gm{
@@ -89,7 +84,6 @@
     margin-bottom: 9px;
      @media (max-width:1199px) {
        margin-bottom: 20px;
-       margin-left:30px;
     }
 }
 
@@ -101,9 +95,7 @@
 .Tel2 {
     color:#757575;
     font-family:RobotoRegular ;
-     @media (max-width:1199px) {
-       margin-left: 37px;
-    }
+    
 }
 
 .join {
@@ -121,10 +113,6 @@ line-height: 16px;
 letter-spacing: 3%;
 text-transform: uppercase;
 color:white;
-
- @media (max-width:767px) {
-    margin-left: 30px;
-}
 }
 
 .networks-li1 {
@@ -162,14 +150,13 @@ background: rgba(255, 255, 255, 0.1);
         position: absolute;
         top: 200px;
         display: block;
-        width: 700px;
-        text-align: center;
+        text-align: center; 
+        margin-left: 120px;
     }
 
       @media (max-width:767px) {
-     top: 400px;
-    left: 0px; 
-    width: 450px;
+     top: 400px;  
+     margin-left: 0;
     }
 }
 
@@ -177,6 +164,8 @@ background: rgba(255, 255, 255, 0.1);
 .form-h4{
     margin-bottom:20px;
     color: #ECECEC;
+    @media (max-width:1199px) {
+    }
 }
 
 .input-footer {

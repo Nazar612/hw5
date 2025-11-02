@@ -1220,11 +1220,6 @@ body {
   display: block;
   padding-top: 60px;
 }
-@media (max-width: 1199px) {
-  .aMain2 {
-    margin-left: 39px;
-  }
-}
 
 #spanf {
   font-size: 26px;
@@ -1249,7 +1244,6 @@ body {
 }
 @media (max-width: 767px) {
   .networks2 {
-    margin-left: 30px;
     justify-content: center;
   }
 }
@@ -1264,11 +1258,6 @@ body {
   font-family: RobotoRegular;
   color: white;
 }
-@media (max-width: 767px) {
-  #p {
-    margin-left: 30px;
-  }
-}
 
 .gm {
   margin-top: 9px;
@@ -1277,7 +1266,6 @@ body {
 @media (max-width: 1199px) {
   .gm {
     margin-bottom: 20px;
-    margin-left: 30px;
   }
 }
 
@@ -1289,11 +1277,6 @@ body {
 .Tel2 {
   color: #757575;
   font-family: RobotoRegular;
-}
-@media (max-width: 1199px) {
-  .Tel2 {
-    margin-left: 37px;
-  }
 }
 
 .join {
@@ -1313,11 +1296,6 @@ body {
   letter-spacing: 3%;
   text-transform: uppercase;
   color: white;
-}
-@media (max-width: 767px) {
-  .fh4 {
-    margin-left: 30px;
-  }
 }
 
 .networks-li1 {
@@ -1354,15 +1332,14 @@ body {
     position: absolute;
     top: 200px;
     display: block;
-    width: 700px;
     text-align: center;
+    margin-left: 120px;
   }
 }
 @media (max-width: 767px) {
   .forme-holder2 {
     top: 400px;
-    left: 0px;
-    width: 450px;
+    margin-left: 0;
   }
 }
 
@@ -1370,7 +1347,6 @@ body {
   margin-bottom: 20px;
   color: #ECECEC;
 }
-
 .input-footer {
   height: 50px;
   width: 358px;
@@ -1437,6 +1413,9 @@ body {
   width: 20px;
   height: 20px;
   margin-left: 350px;
+}
+.close-mobileMenu:active {
+  fill: #2196F3;
 }
 
 .mobileMenu-close-svg {
